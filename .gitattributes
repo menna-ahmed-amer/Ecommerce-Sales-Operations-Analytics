@@ -1,0 +1,7 @@
+# GitHub language/rendering improvements
+*.md text eol=lf
+*.sql text eol=lf
+*.json text eol=lf
+*.csv text
+*.png binary
+*.pbix binary

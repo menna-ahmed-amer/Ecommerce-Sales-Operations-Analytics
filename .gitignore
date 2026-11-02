@@ -1,0 +1,23 @@
+# Generated local files, credentials and development caches
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log
+*.cache
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# SQL Server exports and local connection files
+*.bacpac
+*.bak
+*.mdf
+*.ldf
+*.udl
+
+# Keep intended raw CSVs and, when added, the final PBIX tracked.
