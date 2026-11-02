@@ -1,7 +1,7 @@
 {
   "project": "Ecommerce-Sales-Operations-Analytics",
   "author": "Menna Ahmed Amer",
-  "final_pbix_included": true,
+  "final_pbix_included": false,
   "dataset_source": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
   "csv": [
     {
@@ -103,9 +103,12 @@
   ],
   "deliverables": [
     {
-      "path": "powerbi/Olist_Ecommerce_Analysis.pbix",
       "bytes": 41362982,
-      "sha256": "ceeb641b2b8f03061a97fd4113c247d9c197b841a482214ef9097332e314a819"
+      "sha256": "ceeb641b2b8f03061a97fd4113c247d9c197b841a482214ef9097332e314a819",
+      "original_local_path": "powerbi/Olist_Ecommerce_Analysis.pbix",
+      "filename": "Olist_Ecommerce_Analysis.pbix",
+      "distribution": "GitHub Release v1.0.0 (not stored in git repository)",
+      "download_url": "https://github.com/menna-ahmed-amer/Ecommerce-Sales-Operations-Analytics/releases/download/v1.0.0/Olist_Ecommerce_Analysis.pbix"
     },
     {
       "path": "reports/Business_Insights_and_Recommendations.pdf",
@@ -122,5 +125,9 @@
       "bytes": 748432,
       "sha256": "740adaec4040ef21c49c6a76f425eff689302bf420f45fffe9c642cb9f784e86"
     }
-  ]
+  ],
+  "final_pbix_available_via_release": true,
+  "raw_csv_files_in_repository": false,
+  "source_data_download_url": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+  "csv_distribution_note": "CSV files are obtained from the original Kaggle source; these hashes describe the source copies inspected during analysis, not files committed to GitHub."
 }
