@@ -83,7 +83,7 @@ Nine source CSVs contain **1,550,922 raw records** in total, **not** 1.55 millio
 | `olist_geolocation_dataset.csv` | 1,000,163 | geolocation observation |
 | `product_category_name_translation.csv` | 71 | category translation |
 
-The dataset is in [`data/raw/`](data/raw/). [Original publisher, license and terms](DATASET_SOURCE_AND_LICENSE.md).
+**Source data:** Download the nine original CSV files from [Olist on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce); the raw CSV files are **not stored in this GitHub repository**. For exact filenames, sample row counts and setup, see [`data/README.md`](data/README.md); for attribution and terms, see [Dataset Source & License](DATASET_SOURCE_AND_LICENSE.md).
 
 ## 6. Project architecture
 
@@ -261,8 +261,7 @@ Ecommerce-Sales-Operations-Analytics/
 ├── .gitattributes
 ├── DATASET_SOURCE_AND_LICENSE.md
 ├── data/
-│   ├── README.md
-│   └── raw/                      # available source CSVs; see data/README.md
+│   └── README.md               # Kaggle source link and import instructions
 ├── sql/
 │   ├── README.md
 │   ├── 01_data_profiling/
@@ -286,7 +285,7 @@ Ecommerce-Sales-Operations-Analytics/
     └── REPRODUCIBILITY.md
 ```
 
-**Run locally:** Follow [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) for manual SQL import, required table names, SQL execution order, the caution about the legacy translation-table repair, view creation and future Power BI source configuration.
+**Run locally:** First [download the Olist CSVs from Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), then follow [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) for SQL import, required table names, execution order, the legacy translation-table caution, view creation, and Power BI source configuration. The [editable Power BI report](https://github.com/menna-ahmed-amer/Ecommerce-Sales-Operations-Analytics/releases/download/v1.0.0/Olist_Ecommerce_Analysis.pbix) is distributed through GitHub Releases, not stored directly in the repository.
 
 
 ## 15. Limitations & future work
