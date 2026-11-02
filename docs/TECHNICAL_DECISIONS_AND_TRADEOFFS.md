@@ -19,7 +19,7 @@ Orders, items, payments and reviews do not share one natural row-grain. Flatteni
 | Treat missing delivery timestamps as ineligible | avoids fabricated dates and false punctuality | smaller denominator than all delivered orders | document excluded cases and eligibility rule |
 | Use `customer_unique_id` for people | correct repeat person identity | person-level and order-level IDs differ | separate dimensions and clear KPI grain |
 | Use some bidirectional 1:1 relationships as modeled | can propagate needed filters | can create ambiguity or unanticipated context | explicitly test measures across slicers; consider simplification before production |
-| Keep full raw CSVs in repo | reproducible source access | 58.44 MiB geolocation file is unwieldy on web uploads | use GitHub Desktop/Git; cite and comply with dataset license |
+| Link original raw CSVs from Kaggle instead of redistributing them | authoritative source, clearer provenance, lighter repository | external download may require Kaggle access and dataset releases can change | document exact filenames, expected row counts and reference SHA-256 hashes; link source and license; describe local import |
 
 ## Assumptions and limitations
 
