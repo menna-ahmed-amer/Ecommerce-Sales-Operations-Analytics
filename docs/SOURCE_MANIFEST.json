@@ -1,0 +1,126 @@
+{
+  "project": "Ecommerce-Sales-Operations-Analytics",
+  "author": "Menna Ahmed Amer",
+  "final_pbix_included": true,
+  "dataset_source": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+  "csv": [
+    {
+      "filename": "olist_customers_dataset.csv",
+      "rows": 99441,
+      "bytes": 9033957,
+      "sha256": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2"
+    },
+    {
+      "filename": "olist_orders_dataset.csv",
+      "rows": 99441,
+      "bytes": 17654914,
+      "sha256": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf"
+    },
+    {
+      "filename": "olist_order_items_dataset.csv",
+      "rows": 112650,
+      "bytes": 15438671,
+      "sha256": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279"
+    },
+    {
+      "filename": "olist_order_payments_dataset.csv",
+      "rows": 103886,
+      "bytes": 5777138,
+      "sha256": "4f713964f2815dbbaa40b9488268c55aac3627bfce5aa96cf58d1f3616de3cc0"
+    },
+    {
+      "filename": "olist_order_reviews_dataset.csv",
+      "rows": 99224,
+      "bytes": 14451670,
+      "sha256": "012b61c7593e34f51fa614efdf802b9c7056ce6aae5307ddb93236e7cfc797d7"
+    },
+    {
+      "filename": "olist_products_dataset.csv",
+      "rows": 32951,
+      "bytes": 2379446,
+      "sha256": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc"
+    },
+    {
+      "filename": "olist_sellers_dataset.csv",
+      "rows": 3095,
+      "bytes": 174703,
+      "sha256": "1f643d2b950373b85735e7794b20986f528d7a000432e7c6f9bcbb44d0846a0e"
+    },
+    {
+      "filename": "olist_geolocation_dataset.csv",
+      "rows": 1000163,
+      "bytes": 61273883,
+      "sha256": "b514f6fc991b9566aeba02aa5d67e2c3630f034b60a0e05aa0d082a3b66d88d6"
+    },
+    {
+      "filename": "product_category_name_translation.csv",
+      "rows": 71,
+      "bytes": 2613,
+      "sha256": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278"
+    }
+  ],
+  "sql": [
+    {
+      "source_filename": "Check Rows Count of 9 Files.sql",
+      "repo_path": "sql/01_data_profiling/01_row_counts.sql"
+    },
+    {
+      "source_filename": "Primary_keys Check.sql",
+      "repo_path": "sql/01_data_profiling/02_primary_keys_and_translation_repair.sql"
+    },
+    {
+      "source_filename": "Composite_key and Duplicated Row Check.sql",
+      "repo_path": "sql/02_data_quality/03_composite_keys_and_duplicates.sql"
+    },
+    {
+      "source_filename": "Foriegn key Check.sql",
+      "repo_path": "sql/02_data_quality/04_foreign_keys.sql"
+    },
+    {
+      "source_filename": "Invalid Values & Dates.sql",
+      "repo_path": "sql/02_data_quality/05_invalid_values_and_dates.sql"
+    },
+    {
+      "source_filename": "Outliers Check.sql",
+      "repo_path": "sql/02_data_quality/06_outlier_profiling.sql"
+    },
+    {
+      "source_filename": "Create Views.sql",
+      "repo_path": "sql/03_analytical_views/07_create_six_views.sql"
+    },
+    {
+      "source_filename": "Time & Customer analyst.sql",
+      "repo_path": "sql/04_business_analysis/08_sales_and_customer_analysis.sql"
+    },
+    {
+      "source_filename": "another analysis.sql",
+      "repo_path": "sql/04_business_analysis/09_products_sellers_payments_reviews.sql"
+    },
+    {
+      "source_filename": "Final Validation for 6 Views.sql",
+      "repo_path": "sql/05_validation/10_validate_six_views.sql"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "powerbi/Olist_Ecommerce_Analysis.pbix",
+      "bytes": 41362982,
+      "sha256": "ceeb641b2b8f03061a97fd4113c247d9c197b841a482214ef9097332e314a819"
+    },
+    {
+      "path": "reports/Business_Insights_and_Recommendations.pdf",
+      "bytes": 122266,
+      "sha256": "7f96da224a3cb7f7d02e2136cdd3f0d4fba6d03e62f2d6e9b96fa0da9c07259e"
+    },
+    {
+      "path": "reports/Olist_Project_Defense_Deck.pdf",
+      "bytes": 1578458,
+      "sha256": "88efe01616e1343f95f1ff887e8d07b4fbed084bf38e20cd23fe3609bb1d4f2a"
+    },
+    {
+      "path": "reports/Dashboard_Screenshot_Gallery.pdf",
+      "bytes": 748432,
+      "sha256": "740adaec4040ef21c49c6a76f425eff689302bf420f45fffe9c642cb9f784e86"
+    }
+  ]
+}
