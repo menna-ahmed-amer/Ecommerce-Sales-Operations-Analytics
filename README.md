@@ -25,7 +25,7 @@
 
 **Sections:** [Business problem](#2-business-problem) · [Architecture](#6-project-architecture) · [SQL](#8-sql-profiling-transformations-and-business-analysis) · [Data model](#9-power-bi-data-modeling) · [Dashboards](#11-dashboard-gallery) · [Insights](#12-key-insights--business-recommendations) · [How to run](#14-repository-structure--reproducibility)
 
-**Deliverables:** [Power BI report](powerbi/Olist_Ecommerce_Analysis.pbix) · [Business Insights PDF](reports/Business_Insights_and_Recommendations.pdf) · [Defense Deck PDF](reports/Olist_Project_Defense_Deck.pdf) · [Dashboard Gallery PDF](reports/Dashboard_Screenshot_Gallery.pdf)
+**Deliverables:** [Power BI report](https://github.com/menna-ahmed-amer/Ecommerce-Sales-Operations-Analytics/releases/download/v1.0.0/Olist_Ecommerce_Analysis.pbix) · [Business Insights PDF](reports/Business_Insights_and_Recommendations.pdf) · [Defense Deck PDF](reports/Olist_Project_Defense_Deck.pdf) · [Dashboard Gallery PDF](reports/Dashboard_Screenshot_Gallery.pdf)
 
 ![Executive overview](images/executive_overview.png)
 
@@ -229,7 +229,7 @@ The six screenshots below are **authentic report captures**, cropped to the repo
 ![Payment analysis](images/payments.png)
 **Focus:** R$16.01M recorded payment value; credit cards account for 78.34%; R$586.41K of payment value is associated with non-delivered statuses, requiring settlement review before labeling it lost revenue.
 
-> **Final editable report:** [`powerbi/Olist_Ecommerce_Analysis.pbix`](powerbi/Olist_Ecommerce_Analysis.pbix) — open with Microsoft Power BI Desktop. Data-source paths may need to be reconfigured on your machine; see [`powerbi/README.md`](powerbi/README.md).
+> **Final editable report:** [`powerbi/Olist_Ecommerce_Analysis.pbix`](https://github.com/menna-ahmed-amer/Ecommerce-Sales-Operations-Analytics/releases/download/v1.0.0/Olist_Ecommerce_Analysis.pbix) — open with Microsoft Power BI Desktop. Data-source paths may need to be reconfigured on your machine; see [`powerbi/README.md`](powerbi/README.md).
 
 ## 12. Key insights & business recommendations
 
@@ -262,7 +262,7 @@ Ecommerce-Sales-Operations-Analytics/
 ├── DATASET_SOURCE_AND_LICENSE.md
 ├── data/
 │   ├── README.md
-│   └── raw/                      # all 9 original CSV files
+│   └── raw/                      # available source CSVs; see data/README.md
 ├── sql/
 │   ├── README.md
 │   ├── 01_data_profiling/
@@ -271,8 +271,7 @@ Ecommerce-Sales-Operations-Analytics/
 │   ├── 04_business_analysis/
 │   └── 05_validation/
 ├── powerbi/
-│   ├── README.md
-│   └── Olist_Ecommerce_Analysis.pbix
+│   └── README.md               # Download PBIX from GitHub Release v1.0.0
 ├── images/                      # 6 report screenshots + true model view
 ├── reports/
 │   ├── Business_Insights_and_Recommendations.pdf
