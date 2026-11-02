@@ -43,4 +43,4 @@ My SQL scripts cover: row counts; primary and composite key checks; duplicate ob
 
 ### Reproduction caution
 
-The original script `02_primary_keys_and_translation_repair.sql` includes a special-case `DELETE` and `sp_rename` for a previously mis-imported category translation table. Your included CSV already has correct column headers. Skip the repair section unless the SQL Server table truly contains legacy generic `column1` / `column2` headers; always take a backup and inspect before executing destructive SQL.
+The original script `02_primary_keys_and_translation_repair.sql` includes a special-case `DELETE` and `sp_rename` for a previously mis-imported category translation table. The original `product_category_name_translation.csv` obtained from Kaggle already has correct column headers. Skip the repair section unless the SQL Server table truly contains legacy generic `column1` / `column2` headers; always take a backup and inspect before executing destructive SQL.
